@@ -1,0 +1,13 @@
+name: epicycle-methylation
+channels:
+  - conda-forge
+  - bioconda
+dependencies:
+  - pip:
+    - xlrd
+    - methylprep
+    - methylcheck
+    - pandas
+    - seaborn
+    - numpy
+
